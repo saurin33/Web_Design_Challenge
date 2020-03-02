@@ -1,46 +1,29 @@
-/*
- First External CSS Stylesheet
- */
-
-/* Styling for HTML elements */
-
 body {
-  /* padding: 100px; */
-  /* margin-left: 20px;
-    margin-right: 20px; */
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 150%;
   color: #333;
-  background: #d8c00e;
+  background: #f9f4f4;
   position: relative;
 }
-/* body .first_line{background: yellowgreen;
-    width: 100%;
-    height: 100%;
-    background-color: yellowgreen;
-    position:relative;
-    display:inline-block;
-    left:50px;
-  } */
 
 #first_line_color {
-  background: yellowgreen;
+  background: #f1f1f1;
 
   width: 100%;
   height: 100%;
-  background-color: yellowgreen;
+  background-color: #f1f1f1;
   position: relative;
   display: inline-block;
   left: 0px;
 }
 
 body .row1 {
-  background: yellowgreen;
+  background: #f1f1f1;
 
   width: 100%;
   height: 100%;
-  background-color: yellowgreen;
+  background-color: #f1f1f1;
   position: relative;
   display: inline-block;
   left: 0px;
@@ -50,20 +33,15 @@ body .row1 {
   width: 170px;
   height: 60px;
   border: 1px solid blue;
-  background-color: rgb(46, 159, 163);
+  background-color: darkturquoise;
   position: relative;
   display: inline-block;
   left: 50px;
 }
-/* .first_line>.first_line_blank>p{display:inline-block;} */
 .first_line > .div1 > h1 {
   text-align: center;
-  color: red;
+  color: #f1f1f1;
 }
-
-/* .btn-group{position:absolute;
-    right:200px;
-    display:inline-block;} */
 
 .form-inline > .dropdown {
   display: inline-block;
@@ -82,10 +60,8 @@ body .row1 {
   display: inline-block;
 }
 
-/* float:right} */
-
 header {
-  background: blue;
+  background: #f1f1f1;
 }
 
 header > h1 {
@@ -93,23 +69,17 @@ header > h1 {
   margin: 0px;
   margin-bottom: 0px;
   font-size: 48px;
-  /* color: #eee; */
-  color: yellowgreen;
+  color: darkturquoise;
   text-align: left;
 }
 
-/* h2 {
-    font-size: 24px;
-  } */
-
 a {
-  color: #d21034;
+  color: darkturquoise;
 }
 
 .Col_container {
-  /* margin-left:30px;*/
   margin: 30px;
-  background: rgb(160, 97, 97);
+  background: #f1f1f1(160, 97, 97);
   /* color:rgb(192, 146, 146); */
 }
 
@@ -122,7 +92,7 @@ a {
   margin-left: 10px;
   margin-right: 10px;
   padding: 5px;
-  background: green;
+  background: rgb(5, 5, 5);
 }
 
 .container2 {
@@ -133,7 +103,7 @@ a {
   margin-left: 10px;
   margin-right: 10px;
   padding: 20px;
-  background: yellow;
+  background: rgb(250, 250, 248);
 }
 
 #main_figure {
@@ -162,14 +132,14 @@ a {
   position: relative;
   right: 500px;
   top: 0px;
-  color: yellow;
+  color: rgb(155, 155, 17);
   font-size: 400;
 }
 
 .container_data {
   padding: 10px;
   margin: 30px;
-  background-color: white;
+  background-color: #f1f1f1;
 }
 
 /* .container2>header>h2{position:relative;
@@ -184,12 +154,12 @@ header > h2 {
   margin: 0px;
   margin-bottom: 0px;
   font-size: 28px;
-  color: whitesmoke;
+  color: darkturquoise;
   text-align: center;
 }
 
 figure figcaption {
   border: whitesmoke;
   text-align: center;
-  color: rgb(39, 228, 140);
+  color: #333(39, 228, 140);
 }
